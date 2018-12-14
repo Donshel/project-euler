@@ -22,3 +22,30 @@ def merge(op, n, a, b):
             break
 
     return c
+
+def maxReduce(op, n, A):
+    from numpy import array
+    from functools import reduce
+
+    maxR, temp = 0, 0
+
+    A = array(A)
+
+    if len(A.shape) > 1:
+        for B in A:
+            temp = maxReduce(op, n, B)
+            maxR = max(temp, maxR)
+    else:
+        i = n - 1
+        while i < A.shape[0]:
+            if temp == 0:
+                temp = reduce(op, A[i - n + 1:i + 1])
+            else:
+                temp = A[i] * temp / A[i - n]
+                if temp == 0:
+                    i += n
+                    continue
+                maxR = max(temp, maxR)
+            i += 1
+
+    return maxR

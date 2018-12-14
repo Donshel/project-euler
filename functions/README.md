@@ -31,3 +31,7 @@ Module which contains over-array functions.
 ### merge
 
 Merges `a` and `b` according to the index `n` and the operator `op`.
+
+### maxReduce
+
+Determines the maximum value an operator `op` can take when applied to `n` successive elements of `A`.
