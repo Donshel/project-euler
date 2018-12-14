@@ -20,6 +20,10 @@ Computes the natural which has the prime factor decomposition `d`.
 
 Determines the lowest common multiple of two naturals `a` and `b`.
 
+### isPrime
+
+Determines whether a natural `n` is prime or not.
+
 ## myArray
 
 Module which contains over-array functions.

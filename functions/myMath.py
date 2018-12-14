@@ -29,3 +29,15 @@ def lcm(a, b):
     c = merge(max, 0, a, b)
 
     return comp(c)
+
+def isPrime(n):
+    if n < 2:
+        return False
+
+    f = 2
+    while pow(f, 2) <= n:
+        if n % f == 0:
+            return False
+        f += 1
+
+    return True
