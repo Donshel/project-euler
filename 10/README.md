@@ -38,7 +38,8 @@ Increment `p`
     p += 2
 ```
 
-## Answer
+### Answer
 
-<!-- \sum=142913828922 -->
-<img src="https://latex.codecogs.com/svg.latex?%5Csum%3D142913828922">
+```python
+sum = 142913828922
+```

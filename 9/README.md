@@ -3,15 +3,16 @@
 <!-- a<b<c -->
 A Pythagorean triplet is a set of three natural numbers, <img src="https://latex.codecogs.com/svg.latex?a%3Cb%3Cc">, for which,
 
-<!-- a^2+b^2=c^2 -->
-<img src="https://latex.codecogs.com/svg.latex?a%5E2%2Bb%5E2%3Dc%5E2">
+<p align="center">
+    <!-- a^2+b^2=c^2 -->
+    <img src="https://latex.codecogs.com/svg.latex?a%5E2%2Bb%5E2%3Dc%5E2">
+</p>
 
 <!-- 3^2+4^2=9+16=25=5^2 -->
 For example, <img src="https://latex.codecogs.com/svg.latex?3%5E2%2B4%5E2%3D9%2B16%3D25%3D5%5E2">.
 
 <!-- a+b+c=1000 -->
-There exists exactly one Pythagorean triplet for which <img src="https://latex.codecogs.com/svg.latex?a%2Bb%2Bc%3D1000">.
-
+There exists exactly one Pythagorean triplet for which <img src="https://latex.codecogs.com/svg.latex?a%2Bb%2Bc%3D1000">.  
 Find the product <img src="https://latex.codecogs.com/svg.latex?abc">.
 
 ## Mathematics
@@ -20,13 +21,12 @@ Let be <img src="https://latex.codecogs.com/svg.latex?a">, <img src="https://lat
 
 Therefore,
 
-<!-- c>\frac{n}{3}+1 -->
-<img src="https://latex.codecogs.com/svg.latex?c%3E%5Cfrac%7Bn%7D%7B3%7D%2B1">
-
-and
-
-<!-- b>\frac{c}{2}+1 -->
-<img src="https://latex.codecogs.com/svg.latex?b%3E%5Cfrac%7Bc%7D%7B2%7D%2B1">
+<p align="center">
+    <!-- c>\frac{n}{3}+1 -->
+    <img src="https://latex.codecogs.com/svg.latex?c%3E%5Cfrac%7Bn%7D%7B3%7D%2B1"> and
+    <!-- b>\frac{c}{2}+1 -->
+    <img src="https://latex.codecogs.com/svg.latex?b%3E%5Cfrac%7Bc%7D%7B2%7D%2B1">
+</p>
 
 ## Python implementation
 
@@ -77,9 +77,14 @@ Increment `c`
     c += 1
 ```
 
-Compute the product `c`
+Compute the product `a * b * c`
 
-## Answer
+```python
+prod = a * b * c
+```
 
-<!-- \prod=31875000 -->
-<img src="https://latex.codecogs.com/svg.latex?%5Cprod%3D31875000">
+### Answer
+
+```python
+prod = 31875000
+```

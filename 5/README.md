@@ -18,7 +18,8 @@ Compute the lowest common multiple of `m`'s terms
 n = reduce(lcm, m)
 ```
 
-## Answer
+### Answer
 
-<!-- n=232792560 -->
-<img src="https://latex.codecogs.com/svg.latex?n%3D232792560">
+```python
+n = 232792560
+```

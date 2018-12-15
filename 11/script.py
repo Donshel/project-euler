@@ -40,9 +40,9 @@ while i < l:
     D[l - i - 1:2 * l - i - 1, i] = A[i]
     i += 1
 
-maxA = maxReduce(op, n, A)
-maxB = maxReduce(op, n, B)
-maxC = maxReduce(op, n, C)
-maxD = maxReduce(op, n, D)
+prodA = maxReduce(op, n, A)
+prodB = maxReduce(op, n, B)
+prodC = maxReduce(op, n, C)
+prodD = maxReduce(op, n, D)
 
-max = max([maxA, maxB, maxC, maxD])
+prod = max([maxA, maxB, maxC, maxD])

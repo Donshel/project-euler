@@ -45,7 +45,8 @@ Increment `p`
     p += 1
 ```
 
-## Answer
+### Answer
 
-<!-- p=104743 -->
-<img src="https://latex.codecogs.com/svg.latex?p%3D104743">
+```python
+p = 104743
+```

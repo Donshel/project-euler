@@ -8,8 +8,10 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 If <img src="https://latex.codecogs.com/svg.latex?f"> is a factor of the natural <img src="https://latex.codecogs.com/svg.latex?n">, <img src="https://latex.codecogs.com/svg.latex?f"> is smaller or equal than the square root of <img src="https://latex.codecogs.com/svg.latex?n">.
 
-<!-- \forall\,f\in\mathbb{N}\setminus\{n\}:\frac{n}{f}\in\mathbb{N},\,f\leq\sqrt{n} -->
-<img src="https://latex.codecogs.com/svg.latex?%5Cforall%5C%2Cf%5Cin%5Cmathbb%7BN%7D%5Csetminus%5C%7Bn%5C%7D%3A%5Cfrac%7Bn%7D%7Bf%7D%5Cin%5Cmathbb%7BN%7D%2C%5C%2Cf%5Cleq%5Csqrt%7Bn%7D">
+<p align="center">
+    <!-- \forall\,f\in\mathbb{N}\setminus\{n\}:\frac{n}{f}\in\mathbb{N},\,f\leq\sqrt{n} -->
+    <img src="https://latex.codecogs.com/svg.latex?%5Cforall%5C%2Cf%5Cin%5Cmathbb%7BN%7D%5Csetminus%5C%7Bn%5C%7D%3A%5Cfrac%7Bn%7D%7Bf%7D%5Cin%5Cmathbb%7BN%7D%2C%5C%2Cf%5Cleq%5Csqrt%7Bn%7D">
+</p>
 
 ## Python implementation
 
@@ -67,7 +69,8 @@ Decrement `m`
     m -= 1
 ```
 
-## Answer
+### Answer
 
-<!-- n=906609=913\times993 -->
-<img src="https://latex.codecogs.com/svg.latex?n%3D906609%3D913%5Ctimes993">
+```python
+n = 906609
+```

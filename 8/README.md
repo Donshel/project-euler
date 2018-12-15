@@ -25,7 +25,8 @@ Compute the largest product (`mul`) of `n` successive terms in `A`
 max = maxReduce(mul, n, A)
 ```
 
-## Answer
+### Answer
 
-<!-- \prod=23514624000 -->
-<img src="https://latex.codecogs.com/svg.latex?%5Cprod%3D23514624000">
+```python
+max = 23514624000
+```
