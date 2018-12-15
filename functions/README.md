@@ -24,6 +24,10 @@ Determines the lowest common multiple of two naturals `a` and `b`.
 
 Determines whether a natural `n` is prime or not.
 
+### factorial
+
+Computes the factorial of any natural `n`.
+
 ## myArray
 
 Module which contains over-array functions.

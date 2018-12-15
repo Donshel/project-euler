@@ -41,3 +41,12 @@ def isPrime(n):
         f += 1
 
     return True
+
+def factorial(n):
+    f = int(1)
+
+    while n > 1:
+        f *= n
+        n -= 1
+
+    return f
