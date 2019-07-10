@@ -2,9 +2,9 @@ import numpy as np
 
 n = 1000;
 
-c = np.ceil(n / 3) + 1;
+c = np.ceil(n / 3) + 1
 while c < n:
-    b = np.ceil(c / 2) + 1
+    b = np.ceil((n - c) / 2) + 1
     while b < c:
         a = n - b - c
         if pow(a, 2) + pow(b, 2) == pow(c, 2):

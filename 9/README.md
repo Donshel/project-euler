@@ -22,10 +22,10 @@ Let be <img src="https://latex.codecogs.com/svg.latex?a">, <img src="https://lat
 Therefore,
 
 <p align="center">
-    <!-- c>\frac{n}{3}+1 -->
-    <img src="https://latex.codecogs.com/svg.latex?c%3E%5Cfrac%7Bn%7D%7B3%7D%2B1"> and
-    <!-- b>\frac{c}{2}+1 -->
-    <img src="https://latex.codecogs.com/svg.latex?b%3E%5Cfrac%7Bc%7D%7B2%7D%2B1">
+    <!-- c\geq\frac{n}{3}+1 -->
+    <img src="https://latex.codecogs.com/svg.latex?c%5Cgeq%5Cfrac%7Bn%7D%7B3%7D%2B1"> and
+    <!-- b\geq\frac{n-c}{2}+1 -->
+    <img src="https://latex.codecogs.com/svg.latex?b%5Cgeq%5Cfrac%7Bn-c%7D%7B2%7D%2B1">
 </p>
 
 ## Python implementation
@@ -39,14 +39,14 @@ n = 1000;
 While `c` is acceptable
 
 ```python
-c = np.ceil(n / 3) + 1;
+c = np.ceil(n / 3) + 1
 while c < n:
 ```
 
 While `b` is acceptable
 
 ```python
-    b = np.ceil(c / 2) + 1
+    b = np.ceil((n - c) / 2) + 1
     while b < c:
 ```
 
