@@ -18,7 +18,6 @@ With <img src="https://latex.codecogs.com/svg.latex?f_i"> the prime factors and 
 Therefore, if <img src="https://latex.codecogs.com/svg.latex?f_i%3Ef_%7Bi-1%7D">, the largest prime factor of <img src="https://latex.codecogs.com/svg.latex?n"> is
 
 <p align="center">
-    <!-- f_k=\frac{n}{{f_k}^{e_k-1}\prod_i^{k-1}{f_i}^{e_i}} -->
     <img src="https://latex.codecogs.com/svg.latex?f_k%3D%5Cfrac%7Bn%7D%7B%7Bf_k%7D%5E%7Be_k-1%7D%5Cprod_i%5E%7Bk-1%7D%7Bf_i%7D%5E%7Be_i%7D%7D">
 </p>
 

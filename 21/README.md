@@ -21,7 +21,6 @@ With <img src="https://latex.codecogs.com/svg.latex?f_i"> the prime factors and 
 Therefore, the sum of proper divisors of <img src="https://latex.codecogs.com/svg.latex?n">, <img src="https://latex.codecogs.com/svg.latex?d%28n%29"> is determined by
 
 <p align="center">
-    <!-- d(n)=\left[\prod_i^{k}\frac{{f_i}^{e_i+1}-1}{f_i-1}\right]-n -->
     <img src="https://latex.codecogs.com/svg.latex?d%28n%29%3D%5Cleft%5B%5Cprod_i%5E%7Bk%7D%5Cfrac%7B%7Bf_i%7D%5E%7Be_i%2B1%7D-1%7D%7Bf_i-1%7D%5Cright%5D-n">
 </p>
 
